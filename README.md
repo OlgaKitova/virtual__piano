@@ -2,4 +2,4 @@
 <br>
 View project - https://olgakitova.github.io/virtual__piano/
 <br>
-![](https://github.com/OlgaKitova/virtual__piano/blob/main/assets/screenshot.png)
+This project was implemented as part of the Rolling Scopes School program in my private repository.
