@@ -30,7 +30,6 @@ const audioPause = document.querySelectorAll('.pause'),
       audioG = document.querySelector('.audio__g'),
       audioA = document.querySelector('.audio__a'),
       audioB = document.querySelector('.audio__b');
-
 // Изменение цвета кнопки переключателя при нажатии и изменение названий нот и букв
  function changeBtnSwitch (one_btn, two_btn, notes) {
 one_btn.addEventListener('click', () => {
@@ -75,7 +74,7 @@ function playNotes(btn,note) {
           btn.classList.add('active');
          setTimeout(() => {
            btn.classList.remove('active');
-          }, 700);
+          }, 300);
   }
      btn.addEventListener('click', playNote);
 
@@ -110,7 +109,7 @@ function playLetters (e) {
           btnNoteCUPPER.classList.add('active');
           setTimeout(() => {
             btnNoteCUPPER.classList.remove('active');
-          }, 700);
+          }, 300);
        playMusic(audioCupper);
      break;
      case 'KeyT':
@@ -118,7 +117,7 @@ function playLetters (e) {
           btnNoteDUPPER.classList.add('active');
           setTimeout(() => {
               btnNoteDUPPER.classList.remove('active');
-          }, 700);
+          }, 300);
        playMusic(audioDupper);
      break;
      case 'KeyU':
@@ -126,7 +125,7 @@ function playLetters (e) {
           btnNoteFUPPER.classList.add('active');
           setTimeout(() => {
             btnNoteFUPPER.classList.remove('active');
-          }, 700);
+          }, 300);
        playMusic(audioFupper);
      break;
      case 'KeyI':
@@ -134,7 +133,7 @@ function playLetters (e) {
           btnNoteGUPPER.classList.add('active');
           setTimeout(() => {
              btnNoteGUPPER.classList.remove('active');
-          }, 700);
+          }, 300);
        playMusic(audioGupper);
      break;
      case 'KeyO':
@@ -142,7 +141,7 @@ function playLetters (e) {
           btnNoteAUPPER.classList.add('active');
           setTimeout(() => {
             btnNoteAUPPER.classList.remove('active');
-          }, 700);
+          }, 300);
        playMusic(audioAupper);
      break;
      case 'KeyD':
@@ -150,7 +149,7 @@ function playLetters (e) {
           btnNoteC.classList.add('active');
           setTimeout(() => {
             btnNoteC.classList.remove('active');
-          }, 700);
+          }, 300);
        playMusic(audioC);
      break;
      case 'KeyF':
@@ -158,7 +157,7 @@ function playLetters (e) {
           btnNoteD.classList.add('active');
           setTimeout(() => {
             btnNoteD.classList.remove('active');
-          }, 700);
+          }, 300);
        playMusic(audioD);
      break;
      case 'KeyG':
@@ -166,7 +165,7 @@ function playLetters (e) {
           btnNoteE.classList.add('active');
           setTimeout(() => {
              btnNoteE.classList.remove('active');
-          }, 700);
+          }, 300);
        playMusic(audioE);
      break;
      case 'KeyH':
@@ -174,7 +173,7 @@ function playLetters (e) {
           btnNoteF.classList.add('active');
           setTimeout(() => {
             btnNoteF.classList.remove('active');
-          }, 700);
+          }, 300);
        playMusic(audioF);
      break;
      case 'KeyJ':
@@ -182,7 +181,7 @@ function playLetters (e) {
           btnNoteG.classList.add('active');
           setTimeout(() => {
              btnNoteG.classList.remove('active');
-          }, 700);
+          }, 300);
        playMusic(audioG);
      break;
      case 'KeyK':
@@ -190,7 +189,7 @@ function playLetters (e) {
           btnNoteA.classList.add('active');
           setTimeout(() => {
             btnNoteA.classList.remove('active');
-          }, 700);
+          }, 300);
        playMusic(audioA);
      break;
      case 'KeyL':
@@ -198,7 +197,7 @@ function playLetters (e) {
           btnNoteB.classList.add('active');
           setTimeout(() => {
            btnNoteB.classList.remove('active');
-          }, 700);
+          }, 300);
        playMusic(audioB);
      break;
    }
